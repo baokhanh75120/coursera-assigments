@@ -23,10 +23,11 @@ body
 {
 	position: absolute;
 	text-align: center;
-	right: -2px;
-	top: -2px;
-	border-width: thick 1px 1px 1px 1px;
+	right: -1px;
+	top: -1px;
+	border-width: 1px;
 	border-style: solid;
+	border-color: #000000;
 	padding: 5px 50px 5px 50px;
 }
 
@@ -63,8 +64,9 @@ body
 .content-section
 {
 	position: relative;
-	border-width: thick 1px 1px 1px 1px;
+	border-width: 1px;
 	border-style: solid;
+	border-color: #000000;
 	margin: 10px;
 }
 
