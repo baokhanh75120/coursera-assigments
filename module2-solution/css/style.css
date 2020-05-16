@@ -88,44 +88,9 @@ body
 
 @media (min-width: 992px)
 {
-	@media (min-width: 1450px)
+	.content-section
 	{
-		.content-section
-		{
-			height: 450px;
-		}
-	}
-
-	@media (max-width: 1449px) and (min-width: 1270px)
-	{
-		.content-section
-		{
-			height: 500px;
-		}
-	}
-
-	@media (max-width: 1269px) and (min-width: 1200px)
-	{
-		.content-section
-		{
-			height: 550px;
-		}
-	}
-
-	@media (max-width: 1199px) and (min-width: 1090px)
-	{
-		.content-section
-		{
-			height: 600px;
-		}
-	}
-
-	@media (max-width: 1089px) and (min-width: 992px)
-	{
-		.content-section
-		{
-			height: 650px;
-		}
+		height: 700px;
 	}
 
 	.col-desktop-1, .col-desktop-2, .col-desktop-3, .col-desktop-4, .col-desktop-5, .col-desktop-6,
