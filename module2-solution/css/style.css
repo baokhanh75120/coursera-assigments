@@ -68,6 +68,7 @@ body
 	border-style: solid;
 	border-color: #000000;
 	margin: 10px;
+	height: 1000px;
 }
 
 #content-section-1
@@ -90,11 +91,6 @@ body
 
 @media (min-width: 992px)
 {
-	.content-section
-	{
-		height: 700px;
-	}
-
 	.col-desktop-1, .col-desktop-2, .col-desktop-3, .col-desktop-4, .col-desktop-5, .col-desktop-6,
 	.col-desktop-7, .col-desktop-8, .col-desktop-9, .col-desktop-10, .col-desktop-11, .col-desktop-12
 	{
@@ -165,32 +161,6 @@ body
 /**********Tablet**********/
 @media (max-width: 991px) and (min-width: 768px) 
 {
-	@media (max-width: 991px) and (min-width: 860px)
-	{
-		#content-section-1, #content-section-2
-		{
-			height: 400px;
-		}
-
-		#content-section-3
-		{
-			height: 300px;
-		}
-	}
-
-	@media (max-width: 859px) and (min-width: 768px)
-	{
-		#content-section-1, #content-section-2
-		{
-			height: 470px;
-		}
-
-		#content-section-3
-		{
-			height: 330px;
-		}
-	}
-
 	.col-tablet-1, .col-tablet-2, .col-tablet-3, .col-tablet-4, .col-tablet-5, .col-tablet-6,
 	.col-tablet-7, .col-tablet-8, .col-tablet-9, .col-tablet-10, .col-tablet-11, .col-tablet-12
 	{
@@ -260,45 +230,6 @@ body
 /**********Mobile**********/
 @media (max-width: 767px)
 {
-	@media (max-width: 767px) and (min-width: 700px)
-	{
-		#content-section-1, #content-section-2
-		{
-			height: 300px;
-		}
-
-		#content-section-3
-		{
-			height: 350px;
-		}
-	}
-
-	@media (max-width: 699px) and (min-width: 550px)
-	{
-		#content-section-1, #content-section-2
-		{
-			height: 350px;
-		}
-
-		#content-section-3
-		{
-			height: 450px;
-		}
-	}
-
-	@media (max-width: 549px)
-	{
-		#content-section-1, #content-section-2
-		{
-			height: 400px;
-		}
-
-		#content-section-3
-		{
-			height: 500px;
-		}
-	}
-
 	.col-mobile-1, .col-mobile-2, .col-mobile-3, .col-mobile-4, .col-mobile-5, .col-mobile-6,
 	.col-mobile-7, .col-mobile-8, .col-mobile-9, .col-mobile-10, .col-mobile-11, .col-mobile-12
 	{
